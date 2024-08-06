@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "NLP_TextSummarizer"
 AUTHOR_USERNAME = "Gopiramana"
-SRC_REPO = "Text summarizer"
+SRC_REPO = "TextSummarizer"
 AUTHOR_EMAIL = "gopiramana333@gmail.com"
 
 setuptools.setup(
@@ -22,7 +22,7 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USERNAME}/{REPO_NAME}/issues",
     },
-    keywords=["Natural Language Processing", "Text Summarization"],
+    keywords=["Natural Language Processing", "TextSummarization"],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
    
